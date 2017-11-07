@@ -1,0 +1,114 @@
+* { 
+	padding: 0;
+	margin: 0;
+ }
+body {
+	font-family: 'Oswald', sans-serif;
+	border-radius: 3px;
+}
+
+header {
+	background: #226394; 
+	height: 64px;
+	width: 100%;
+}
+.tab {
+	background: #0084C3;
+	color: white;
+	height: 40px;
+	margin: 0 0 0 0;
+	width: 100px;
+}
+
+.search {
+	background: #0084C3;
+	height: 40px;
+	margin-left: 169px;
+	margin-top: -34px;
+	width: 173px;
+}
+.fa-seatch {
+	color: white;
+	float-left: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+#trello {
+	height: 54px;
+	margin-left: 551px;
+	margin-top: -49px;
+	width: 99px;
+}
+
+.icons {
+	height: 41px;
+	margin: -48px 0 0 1105px;
+	width: 140px;
+}
+
+.fa-plus {
+	background: #0084C3;
+	color: white;
+	font-size: 20px;
+	height: 28px;
+	margin: 0 12px 0 0;
+	width: 31px;
+}
+
+.fa-clock {
+	background: #0084C3;
+	color: white;
+	font-size: 20px;
+	height: 40px;
+	margin: 0 0 0 0;
+	width: 40px;
+}
+
+.fa-bell {
+	background: #0084C3;
+	color: white;
+	height: 40px;
+	width: 40px;
+}
+
+main {
+	background: #0084C3;
+	height: 500px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+.subhead {
+	color: white;
+	float: left;
+	height: 64px;
+	width: 100%;
+}
+
+.uno {
+	color: white;
+	margin: 3px 0 3px 25px;
+}
+
+.dos {
+	color: white;
+	margin: -25px 0 0 197px;
+}
+
+.tres {
+	color: white;
+	margin: -20px 0 0 1155px;
+}
+#list {
+	color: white;
+	height: 40px;
+	width: 173px;
+}
+
+.addBtn {
+	background: #00BD4D;
+	height: 20px
+	margin: 0 0 0 0;
+	width: 80px;
+}
