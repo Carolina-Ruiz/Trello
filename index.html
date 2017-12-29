@@ -9,37 +9,51 @@
 </head>
 <body>
 	<header>
-		<nav>
+		<div class="menu">
 			<div class="tab">Tableros</div>
 			<div class="search"> 
-				<i class="fa fa-search" aria-hidden="true"></i></div>
-				<img src="assets/img/trello.jpg" id="trello">
-		<div class="icons">
-			<i class="fa fa-plus" aria-hidden="true"></i>
-			<i class="fa fa-clock-o" aria-hidden="true"></i>
-			<i class="fa fa-bell-o" aria-hidden="true"></i>
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</div>
+			<img src="assets/img/trello.jpg" id="imgTrello">
+			<div class="pictures">
+				<div class="little-box">
+					<i class="fa fa-plus" aria-hidden="true" class="icon"></i>
+				</div>
+				<div class="little-box">
+					<i class="fa fa-clock-o" aria-hidden="true" class="icon"></i>
+				</div>
+				<div class="little-box">
+					<i class="fa fa-bell-o" aria-hidden="true" class="icon"></i>
+				</div>
+			<!--<i class="fa fa-user-circle" aria-hidden="true" class="icon"></i>
+			</div> usuario-->
 		</div>
-		</nav>
 	</header>
-	<main>
-		<section>
-			<nav class="subhead">
-				<div class="uno">Tablero-Reto de Código <i class="fa fa-star-o" aria-hidden="true"></i></div>
+	<main><!--se divide en dos secciones: subhead y box-->
+		<section class="subhead"> 
+			
+				<div class="uno">Tablero-Reto de Código <i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
 				<div class="dos">
 				<i class="fa fa-lock" aria-hidden="true"></i>Privado </div>
-				<div class="tres">
+				<div class="tres" class="icon">
 				<i class="fa fa-ellipsis-h" aria-hidden="true"></i>Mostrar menú </div>
-			</nav>
-		 		<div></div>
 		</section>
-		<section>
-			<div id="list">
-				<h2>Añadir una lista...</h2>
-				<input type="text" id="myInput" placeholder="Nombre de lista">
-  				<span onclick="newElement()" 
-  				class="addBtn">Guaradar</span>
-			</div>
 		
+		<section class="box"><!--cada div lleva un numero segun el orden de las cajas que van apareciendo-->
+
+			<div class="insetuno">
+				<button id="btnAdd">Añadir una lista...</button>
+			</div>
+
+			<!--Estara invisible hasta que se le haga click-->
+			<div class="insetdos ocult-inset"> 
+				<input type="text" id="myInput" placeholder="Añadir una lista"></input>
+  				<button class="btnSave">Guardar</button>
+		 		<button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+  			</div>
+
+			<div id="insettres" class='ocult-inset'></div>
 		</section>
 	</main>
 
